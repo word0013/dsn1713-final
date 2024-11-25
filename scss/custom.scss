@@ -1,0 +1,31 @@
+$primary: #0F9E92;
+$secondary: #fff;
+$hero-text-color: #fff;
+
+#hero {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/cta-books.jpg);
+    height: 80vh;
+    color: $hero-text-color; 
+}
+
+.btn-primary {
+    color: #fff;
+}
+
+.navbar .nav-link {
+    color: #0F9E92;
+}
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
