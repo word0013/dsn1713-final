@@ -9,34 +9,39 @@
 </head>
 
 <body>
-
-    <header>
-        <nav class="navbar navbar-expand-lg">
+    
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container-lg">
-              <a class="navbar-brand" href="/index.html"><img src="images/logo.png" alt="Logo" width="60" height="auto"></a>
-              <button class="navbar-toggler order-0 order-lg-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="/index.html"><img src="images/logo.png" alt="Logo" width="60" height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/about-me.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/donations-fundraising.html">Donations & Fundraising</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                </ul>
-              </div>
-              <button class="btn btn-primary order-1 order-lg-2">Log In/Sign Up</button>
-            </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/about-me.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/donations-fundraising.html">Donations & Fundraising</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
 
+                <div class="d-flex">
+                    <button class="btn btn-primary">Log In/Sign Up</button>
+                </div>
+            
+            </div>
+            </div>
+        </nav>
     </header>
+    
 
     <main>
 
@@ -53,37 +58,41 @@
         </section>
 
         <section id="featured">
-            <div class="container-lg pb-5 ">
+            <div class="container-lg pb-5 justify-content-center">
                 <div class="row">
 
                     <div class="text-center mt-5 mb-4">
                         <h1>Featured</h1>
                     </div>
 
-                    <div class="col-lg-3 pe-5">
-                        <img class="img-fluid" src="images/the-ninth-forsvar-book.jpg" alt="The Ninth Forsvar book">
+                    <div class="col-lg-3 pe-5 py-3">
+                        <img height="400px" width="auto" src="images/the-ninth-forsvar-book.jpg" alt="The Ninth Forsvar book">
                     </div>
 
-                    <div class="col-lg-3 pe-5">
-                        <img class="img-fluid flight" src="images/uncontrolled-flight-book.jpg" alt="gates-and-walls-book">
+                    <div class="col-lg-3 pe-5 py-3">
+                        <img height="400px" width="auto" src="images/uncontrolled-flight-book.jpg" alt="gates-and-walls-book">
                     </div>
 
-                    <div class="col-lg-3 pe-5">
-                        <img class="img-fluid" src="images/keep-memory-safe-book.jpg" alt="Keep My Memory Safe book">
+                    <div class="col-lg-3 pe-5 py-3">
+                        <img height="400px" width="auto" src="images/keep-memory-safe-book.jpg" alt="Keep My Memory Safe book">
                     </div>
 
-                    <div class="col-lg-3 pe-5">
-                        <img class="img-fluid" src="images/wale-up-call-book.jpg" alt="The wake up call book">
-                    </div>    
+                    <div class="col-lg-3 pe-5 py-3">
+                        <img height="400px" width="auto" src="images/wale-up-call-book.jpg" alt="The wake up call book">
+                    </div> 
                     
-                    <div class="col-lg-6">
-                        <button type="button" class="btn btn-primary">Shop Online</button>
+                    <div class="row d-flex justify-content-center mt-4">
+                        <div class="col-lg-3 col-6 text-center">
+                            <button type="button" class="btn btn-primary w-75">Shop Online</button>
+                        </div>
+            
+                        <div class="col-lg-3 col-6 text-center">
+                            <button type="button" class="btn btn-primary w-75">Shop Audio</button>
+                        </div>
                     </div>
-                    
-                    <div class="col-lg-6">
-                        <button type="button" class="btn btn-primary">Shop Audio</button>
-                    </div>
+
                 </div>
+            </div>
                        
         </section>
 
@@ -109,8 +118,7 @@
             </div>
         </section>
         
-
-        
+            
     </main>
     
 
@@ -122,22 +130,20 @@
                 <h5>CONTACT US</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary">staff@booksonbeechwood.ca</a>
+                        <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/email-symbol.png" alt="email-symbol">staff@booksonbeechwood.ca</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary">613-742-5030</a>
+                        <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/phone-symbol.png" alt="phone-symbol"> 613-742-5030</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary">35 Beechwood Ave. Ottawa, 
+                        <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/location-symbol.png" alt="location-symbol"> 35 Beechwood Ave. Ottawa, 
                             ON K1M 1M1</a>
                     </li>
                 </ul>
             </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>© 2024 Company, Inc. All rights reserved.</p>
-            </div>
-
-            <div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2024 Company, Inc. All rights reserved.</p>
+                </div>
 
             </div>
         </div>

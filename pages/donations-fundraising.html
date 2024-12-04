@@ -9,50 +9,55 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">  
             <div class="container-lg">
-              <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Logo" width="60" height="auto"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="/index.html"><img src="../images/logo.png" alt="Logo" width="60" height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/about-me.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/donations-fundraising.html">Donations & Fundraising</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                </ul>
-              </div>
-              <button class="btn btn-primary">Log In/Sign Up</button>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/about-me.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/donations-fundraising.html">Donations & Fundraising</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                <div class="d-flex">
+                    <button class="btn btn-primary">Log In/Sign Up</button>
+                </div>
+            
             </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section class="container-lg">
             <div class=" d-flex justify-content-center mb-5 mt-4">
-                <button class="btn btn-primary me-5 px-5">Donations</button>
-                <button class="btn btn-primary me-5 px-5">Fundraising</button>
-                <button class="btn btn-primary px-5">FAQs</button>
+                <button class="btn btn-primary me-5 px-4">Donations</button>
+                <button class="btn btn-primary me-5 px-4">Fundraising</button>
+                <button class="btn btn-primary px-4">FAQs</button>
             </div>
         </section>
 
         <section id="donations" class="bg-dark">
-            <div class="container-lg">
+            <div class="container-lg my-5">
                 <div class="row">
                     <div class="col-lg-6">
                         <img class="img-fluid" src="../images/books-in-box.jpg" alt="books-in-box">
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pt-4">
                         <h1>Donations</h1>
                         <p>Books on Beechwood is committed to supporting our local community in New Edinburgh. While we prioritize local requests, we will consider other donation requests on a case-by-case basis.</p>
 
@@ -66,22 +71,19 @@
         </section>
 
         <section id="fundraising">
-            <div class="container-lg">
+            <div class="container-lg my-5">
                 <div class="row">
                     <div class="col-lg-6">
                         <img class="img-fluid" src="../images/donations-image.jpg" alt="fundraising">
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pt-4">
                         <h1>Fundraising</h1>
                         <p>For recognizing our donations, we ask that you include our logo and a link to our website on your event and sponsorship pages. Additionally, we appreciate shout-outs on social media with links back to our site or social media profiles, as well as mentions in your promotional emails, newsletters, and other media related to the event.</p>
 
                         <p>You can find us on social media platforms like Facebook, Instagram (@booksonbeechwood), and Twitter (@beechwoodbooks).</p>
 
-                        <p>For promotional materials, you can use our logo linked below:
-                            <a href="https://www.booksonbeechwood.ca"><img src="https://booksonbeechwood.ca/wp-content/uploads/temp/2023/05/books_on_beechwood-modern-street-sign-1024x910.png" alt="Books on Beechwood Logo" width="300"></a></p>
-
-                        <p>For print purposes, you can use the image above or contact us at staff@booksonbeechwood.ca for higher resolution artwork or different formats. We’re also happy to produce artwork for any publication, whether web or print—just let us know your requirements!</p>
+                        <p>For print purposes, you can contact us at staff@booksonbeechwood.ca for higher resolution artwork or different formats of our logo. We’re also happy to produce artwork for any publication, whether web or print—just let us know your requirements!</p>
                     </div>
                     
                 </div>
@@ -95,7 +97,7 @@
                         <img class="img-fluid" src="../images/question-marks.jpg" alt="question question-marks">
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pt-4">
                         <h1>FAQ's</h1>
 
                         <h5>Will you promote our event?</h5>
@@ -107,8 +109,6 @@
                         <h5>I want to donate my used books, will you take them?</h5>
                         <p>We only sell new books which we get directly from publishers. Locally we have the Rockcliffe Park Book Fair and the Rockcliffe Library sale that both take donations. You might also try contacting one of the many second hand book stores in town.</p>
 
-                        <h5>Thank you for this, but we still have questions!</h5>
-                        <p>Please send us an email to staff@booksonbeechwood.ca and we will respond as best as we are able.</p>
                     </div>
                     
                 </div>
@@ -120,17 +120,17 @@
     <footer class="py-5">
         <div class="container-lg">
             <div class="row">
-                <div class="col-6 col-md2 mb-3">
+                <div class="col-6 col-md2 py-3">
                     <h5>CONTACT US</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-body-secondary">staff@booksonbeechwood.ca</a>
+                            <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/email-symbol.png" alt="email-symbol">staff@booksonbeechwood.ca</a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-body-secondary">613-742-5030</a>
+                            <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/phone-symbol.png" alt="phone-symbol"> 613-742-5030</a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-body-secondary">35 Beechwood Ave. Ottawa, 
+                            <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/location-symbol.png" alt="location-symbol"> 35 Beechwood Ave. Ottawa, 
                                 ON K1M 1M1</a>
                         </li>
                     </ul>
@@ -147,7 +147,7 @@
     
     </footer>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     
 </body>

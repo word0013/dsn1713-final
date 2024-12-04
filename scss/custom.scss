@@ -2,6 +2,13 @@ $primary: #0F9E92;
 $secondary: #fff;
 $hero-text-color: #fff;
 $dark: #EEFEFD;
+$light: #fff;
+$info: #074842;
+
+
+$navbar-dark-hover-color: #08544c;
+$btn-link-hover-color: #08544c;
+$navbar-toggler-border-color: #0F9E92;
 
 #hero {
     background-position: center bottom;
@@ -33,6 +40,7 @@ $dark: #EEFEFD;
     color: #fff;
 }
 
+
 .btn-secondary {
     color: #0F9E92;
 }
@@ -43,13 +51,8 @@ $dark: #EEFEFD;
     border-radius: 10px;
 }
 
-.about-us-text {
-    border-style: solid;
-    border-color: #000;
-    border-radius: 10px;
-}
-
 .footer {
    border-top: solid;
    border-color: #000; 
 }
+
