@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 #hero {
   background-position: center bottom;
   background-size: cover;
@@ -19,6 +20,10 @@
 #featured .img {
   height: 100px;
   width: auto;
+}
+
+.navbar-toggler {
+  border-color: #0F9E92 !important;
 }
 
 /*!
@@ -93,7 +98,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Urbanist", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -3265,9 +3270,9 @@ textarea.form-control-lg {
   --bs-btn-color: var(--bs-link-color);
   --bs-btn-bg: transparent;
   --bs-btn-border-color: transparent;
-  --bs-btn-hover-color: #08544c;
+  --bs-btn-hover-color: var(--bs-link-hover-color);
   --bs-btn-hover-border-color: transparent;
-  --bs-btn-active-color: #08544c;
+  --bs-btn-active-color: var(--bs-link-hover-color);
   --bs-btn-active-border-color: transparent;
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
@@ -4299,7 +4304,7 @@ textarea.form-control-lg {
 .navbar-dark,
 .navbar[data-bs-theme=dark] {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
-  --bs-navbar-hover-color: #08544c;
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
@@ -11883,6 +11888,18 @@ textarea.form-control-lg {
 .footer {
   border-top: solid;
   border-color: #000;
+}
+
+.btn:hover {
+  color: #08544c;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=custom.css.map */

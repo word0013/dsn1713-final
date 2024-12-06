@@ -1,3 +1,9 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family-sans-serif: "Urbanist", sans-serif;
+
 $primary: #0F9E92;
 $secondary: #fff;
 $hero-text-color: #fff;
@@ -5,10 +11,6 @@ $dark: #EEFEFD;
 $light: #fff;
 $info: #074842;
 
-
-$navbar-dark-hover-color: #08544c;
-$btn-link-hover-color: #08544c;
-$navbar-toggler-border-color: #0F9E92;
 
 #hero {
     background-position: center bottom;
@@ -31,7 +33,10 @@ $navbar-toggler-border-color: #0F9E92;
     height: 100px;
     width: auto;
   }
-
+  
+  .navbar-toggler {
+    border-color: $primary !important;
+  }
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -55,4 +60,17 @@ $navbar-toggler-border-color: #0F9E92;
    border-top: solid;
    border-color: #000; 
 }
+
+ .btn:hover {
+  color: #08544c;
+}
+
+.card-body {
+  background-color: #fff;
+}
+.card {
+  background-color: #fff;
+}
+
+
 

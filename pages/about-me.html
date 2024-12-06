@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><About Me</title>
     <link rel="stylesheet" href="/css/custom.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/favicon_io/favicon.ico">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>
 
 <body>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
             <div class="container-lg">
             <a class="navbar-brand" href="/index.html"><img src="../images/logo.png" alt="Logo" width="60" height="auto"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <img width="30" src="../images/hamburger-menu-svgrepo-com.svg" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav mx-auto  animate__animated animate__zoomIn">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
@@ -66,42 +71,39 @@
 
         <section id="meet-staff" class="bg-dark">
             <div class="container-lg pb-5">
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                         <h1 class="text-center my-5">Meet Our Staff</h1>
 
                             <div class="col-sm-6 col-lg-3 p-3">
                                 <div class="card text-bg-dark">
-                                  <img src="../images/bonnie-headshot.jpg" class="card-img-top rounded-circle img-fluid p-4" alt="bonnie-headshot">
+                                  <img src="../images/bonnie-headshot.jpg" class="card-img-top img-fluid" alt="bonnie-headshot">
                                   <div class="card-body">
-                                    <h5 class="card-title">Bonnie</h5>
+                                    <h4 class="card-title text-center">Bonnie</h4>
                                     <p class="card-text">Bonnie started working at the bookstore in 2011. She is deaf but can read lips and also communicate with sign language. She enjoys reading biographies and real stories about WWII. She’s so happy that she’s had the chance to work at the store for so many years now, and loves learning new things everyday and helping people out!</p>
                                   </div>
                                 </div>
                             </div>
 
                           
-                            <div class="col-sm-6 col-lg-3 p-3">
+                            <div class="col-sm-6 col-lg-3 p-3 d-flex justify-content-center">
                                 <div class="card text-bg-dark">
-                                  <img src="../images/michelle-headshot.jpg" class="card-img-top rounded-circle img-fluid p-4" alt="michelle-headshot">
+                                  <img src="../images/michelle-headshot.jpg" class="card-img-top img-fluid" alt="michelle-headshot">
                                   <div class="card-body">
-                                    <h5 class="card-title">Michelle</h5>
+                                    <h4 class="card-title text-center">Michelle</h4>
                                     <p class="card-text">Michelle worked as labour rights policy analyst for a couple of decades, but took a step back from that to focus on reading, writing, family, and community. She enjoys chatting with our wonderful customers and loves helping people find literary gems. She has published one novel and hopes to write many more</p>
                                   </div>
                                 </div>
                             </div> 
 
-                            <div class="col-sm-6 col-lg-3 p-3">
+                            <div class="col-sm-6 col-lg-3 p-3 d-flex justify-content-center">
                                 <div class="card text-bg-dark">
-                                  <img src="../images/hilary-headshot.jpg" class="card-img-top rounded-circle img-fluid p-4" alt="hilary-headshot">
+                                  <img src="../images/hilary-headshot.jpg" class="card-img-top img-fluid" alt="hilary-headshot">
                                   <div class="card-body">
-                                    <h5 class="card-title">Hilary</h5>
+                                    <h4 class="card-title text-center">Hilary</h4>
                                     <p class="card-text">Hilary started working at Books on Beechwood in 2008 after graduating from university. Reading is one of her favourite pastimes and there’s never a day that goes by when she doesn’t have at least one book on the go. The genres she likes reading the most are historical fiction, fantasy, and young adult books.</p>
                                   </div>
                                 </div>
-                              </div>
-
-                                
-                                 
+                            </div>                
                 </div>
              </div>
         </section>
@@ -125,35 +127,41 @@
     
 
 
-<footer class="py-5">
-    <div class="container-lg">
-        <div class="row">
-            <div class="col-6 col-md2 mb-3">
-                <h5>CONTACT US</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/email-symbol.png" alt="email-symbol">staff@booksonbeechwood.ca</a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/phone-symbol.png" alt="phone-symbol"> 613-742-5030</a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary"> <img height="30px" src="/images/location-symbol.png" alt="location-symbol"> 35 Beechwood Ave. Ottawa, 
-                            ON K1M 1M1</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>© 2024 Company, Inc. All rights reserved.</p>
-            </div>
-
-            <div>
-
+    <footer class="py-5">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-6 col-md2 mb-3" style="width: 100%;">
+                    <h5>CONTACT US</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0"> <img height="30px" class="pe-2" src="../images/email-symbol.png" alt="email-symbol">staff@booksonbeechwood.ca</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0"> <img height="30px" class="pe-2" src="../images/phone-symbol.png" alt="phone-symbol"> 613-742-5030</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0"> <img height="30px" class="pe-2" src="../images/location-symbol.png" alt="location-symbol"> 35 Beechwood Ave. Ottawa, 
+                                ON K1M 1M1</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <div class="order-2">
+                        <p>© 2024 Company, Inc. All rights reserved.</p>
+                    </div>
+                    
+                    <ul class="list-unstyled d-flex order-1">
+                      <li class="ms-3"><a class="link-body-emphasis" href="#"> <img width="45" src="../images/insta-link.png" alt="Instagram-link"></a></li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="#"> <img width="40" src="../images/facebook-logo.png" alt="facebook-logo"></a></li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="#"> <img width="40" src="../images/x-logo.png" alt="x-logo"></a></li>
+                    </ul>
+                  </div>
+    
+                </div>
             </div>
         </div>
-    </div>
-
-</footer>
+    
+    </footer>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 
